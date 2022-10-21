@@ -1,0 +1,241 @@
+{
+  "TECHNOLOGIES": [
+    { "name": "PHP" },
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "NodeJS" },
+    { "name": "React" },
+    { "name": "Vite" },
+    { "name": "Flutter" },
+    { "name": "VueJS" },
+    { "name": "Svelte" },
+    { "name": "GraphQL" },
+    { "name": "Express" },
+    { "name": "Wordpress" },
+    { "name": "Angular" }
+  ],
+  "COMPANIES": [
+    {
+      "companyName": "Legros Group",
+      "companyCity": "Vincentbury",
+      "domainName": "experienced-download.org",
+      "technologies": [
+        { "name": "PHP" },
+        { "name": "JavaScript" },
+        { "name": "TypeScript" }
+      ]
+    },
+    {
+      "companyName": "Borer - Parker",
+      "companyCity": "Las Cruces",
+      "domainName": "yellowish-kneejerk.net",
+      "technologies": [
+        { "name": "Express" },
+        { "name": "Wordpress" },
+        { "name": "Angular" }
+      ]
+    },
+    {
+      "companyName": "West, Schaden and Kautzer",
+      "companyCity": "Lake Matteofort",
+      "domainName": "sweltering-incubation.name",
+      "technologies": [
+        { "name": "NodeJS" },
+        { "name": "React" },
+        { "name": "Vite" }
+      ]
+    },
+    {
+      "companyName": "Carter - Kertzmann",
+      "companyCity": "Urbandale",
+      "domainName": "affectionate-pancreas.name",
+      "technologies": [
+        { "name": "Flutter" },
+        { "name": "VueJS" },
+        { "name": "Svelte" }
+      ]
+    },
+    {
+      "companyName": "Kreiger, Schowalter and Conroy",
+      "companyCity": "North Johnsonport",
+      "domainName": "livid-patio.com",
+      "technologies": [
+        { "name": "VueJS" },
+        { "name": "Svelte" },
+        { "name": "GraphQL" }
+      ]
+    },
+    {
+      "companyName": "Veum - Streich",
+      "companyCity": "Lynchfort",
+      "domainName": "dim-antechamber.name",
+      "technologies": [
+        { "name": "Svelte" },
+        { "name": "GraphQL" },
+        { "name": "Express" }
+      ]
+    },
+    {
+      "companyName": "Hoeger LLC",
+      "companyCity": "Kuphalview",
+      "domainName": "jumpy-disgust.com",
+      "technologies": [
+        { "name": "JavaScript" },
+        { "name": "TypeScript" },
+        { "name": "NodeJS" }
+      ]
+    },
+    {
+      "companyName": "Thiel, Auer and Lueilwitz",
+      "companyCity": "Port Manuel",
+      "domainName": "ultimate-committee.info",
+      "technologies": [
+        { "name": "Vite" },
+        { "name": "Flutter" },
+        { "name": "VueJS" }
+      ]
+    },
+    {
+      "companyName": "Kovacek and Sons",
+      "companyCity": "Port Glenbury",
+      "domainName": "gentle-breeze.biz",
+      "technologies": [
+        { "name": "Vite" },
+        { "name": "Flutter" },
+        { "name": "VueJS" }
+      ]
+    },
+    {
+      "companyName": "Kemmer and Sons",
+      "companyCity": "Costa Mesa",
+      "domainName": "hidden-alteration.org",
+      "technologies": [
+        { "name": "Flutter" },
+        { "name": "VueJS" },
+        { "name": "Svelte" }
+      ]
+    }
+  ],
+  "USERS": [
+    {
+      "userId": 1,
+      "username": "Norberto_Kuvalis63",
+      "email": "Sienna_Doyle@hotmail.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1036.jpg",
+      "birthdate": "1943-07-16T06:41:03.080Z",
+      "technologies": [
+        { "name": "Flutter" },
+        { "name": "VueJS" },
+        { "name": "Svelte" }
+      ]
+    },
+    {
+      "userId": 2,
+      "username": "Antonietta.Robel35",
+      "email": "Rodrick.MacGyver99@hotmail.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+      "birthdate": "1944-06-01T16:26:13.341Z",
+      "technologies": [
+        { "name": "Vite" },
+        { "name": "Flutter" },
+        { "name": "VueJS" }
+      ]
+    },
+    {
+      "userId": 3,
+      "username": "Hayley.Windler72",
+      "email": "Garrett_Ernser@hotmail.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/561.jpg",
+      "birthdate": "2000-09-22T17:44:44.238Z",
+      "technologies": [
+        { "name": "PHP" },
+        { "name": "JavaScript" },
+        { "name": "TypeScript" }
+      ]
+    },
+    {
+      "userId": 4,
+      "username": "Darrin_Gulgowski28",
+      "email": "Stephon51@yahoo.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/325.jpg",
+      "birthdate": "2001-03-07T03:45:45.409Z",
+      "technologies": [
+        { "name": "Vite" },
+        { "name": "Flutter" },
+        { "name": "VueJS" }
+      ]
+    },
+    {
+      "userId": 5,
+      "username": "Ettie84",
+      "email": "Pierce_Marks@yahoo.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/93.jpg",
+      "birthdate": "1965-05-07T01:58:41.029Z",
+      "technologies": [
+        { "name": "JavaScript" },
+        { "name": "TypeScript" },
+        { "name": "NodeJS" }
+      ]
+    },
+    {
+      "userId": 6,
+      "username": "Leopoldo_Sporer78",
+      "email": "Salma2@yahoo.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+      "birthdate": "1975-04-28T18:01:12.886Z",
+      "technologies": [
+        { "name": "Svelte" },
+        { "name": "GraphQL" },
+        { "name": "Express" }
+      ]
+    },
+    {
+      "userId": 7,
+      "username": "Tressie98",
+      "email": "Jeramy.Homenick@gmail.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/931.jpg",
+      "birthdate": "1979-05-31T04:31:44.739Z",
+      "technologies": [
+        { "name": "Flutter" },
+        { "name": "VueJS" },
+        { "name": "Svelte" }
+      ]
+    },
+    {
+      "userId": 8,
+      "username": "Newton81",
+      "email": "Gwen.Bednar@hotmail.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/504.jpg",
+      "birthdate": "1971-11-10T14:49:11.016Z",
+      "technologies": [
+        { "name": "NodeJS" },
+        { "name": "React" },
+        { "name": "Vite" }
+      ]
+    },
+    {
+      "userId": 9,
+      "username": "Chanelle.Zemlak29",
+      "email": "Abigail_Goodwin@yahoo.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/802.jpg",
+      "birthdate": "1984-10-04T03:07:02.220Z",
+      "technologies": [
+        { "name": "Express" },
+        { "name": "Wordpress" },
+        { "name": "Angular" }
+      ]
+    },
+    {
+      "userId": 10,
+      "username": "Irma63",
+      "email": "Antonia3@yahoo.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/235.jpg",
+      "birthdate": "1953-09-03T12:05:44.868Z",
+      "technologies": [
+        { "name": "Vite" },
+        { "name": "Flutter" },
+        { "name": "VueJS" }
+      ]
+    }
+  ]
+}
