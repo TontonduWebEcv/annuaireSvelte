@@ -3,14 +3,19 @@
   import AnimatePresence from "svelte-motion/src/components/AnimatePresence/AnimatePresence.svelte";
   import Autocomplete from "./components/organisms/autocomplete.svelte";
   import Tags from "./components/atoms/Tags.svelte";
+  import SelectedTag from "./components/atoms/SelectedTag.svelte";
 
   const tagsList = ["Php", "Js", "Html"];
-  let currentTags = [];
+  $: currentTags = [];
 
-  $: displayedTag = tagsList.filter((t) => !currentTags.includes(t));
+  $: displayedTagInTab = tagsList.filter((t) => !currentTags.includes(t));
 
   function addTag(event) {
     currentTags = [...currentTags, event.detail];
+  }
+
+  function deleteTag(event) {
+    currentTags = currentTags.filter((t) => t != event.detail);
   }
 
   let isOn = 0;
@@ -48,11 +53,8 @@
 <main>
   <Autocomplete />
 
-  {#each currentTags as tag}
-    {tag}
-  {/each}
-
-  <Tags tagsList={displayedTag} on:tagSelected={addTag} />
+  <SelectedTag {currentTags} on:deleteTag={deleteTag} />
+  <Tags tagsList={displayedTagInTab} on:tagSelected={addTag} />
 
   <!-- {#each filterList as filterName}
     <AnimatePresence

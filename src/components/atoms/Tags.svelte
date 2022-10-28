@@ -1,9 +1,9 @@
 <script>
-  export let tagsList = [];
-  let open = false;
-
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
+
+  export let tagsList = [];
+  let open = false;
 
   function tagSelected(t) {
     dispatch("tagSelected", t);
