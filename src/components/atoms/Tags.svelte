@@ -2,7 +2,7 @@
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
 
-  export let tagsList = [];
+  export let tagsList;
   let open = false;
 
   function tagSelected(t) {
@@ -18,7 +18,7 @@
   {#if open}
     {#each tagsList as tag}
       <div>
-        <button on:click={() => tagSelected(tag)}>{tag}</button>
+        <button on:click={() => tagSelected(tag)}>{tag.name}</button>
       </div>
     {/each}
   {/if}

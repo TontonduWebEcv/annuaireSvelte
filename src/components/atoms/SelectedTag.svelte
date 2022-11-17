@@ -9,5 +9,5 @@
 </script>
 
 {#each currentTags as tag}
-  <button on:click={() => currentTag(tag)}>{tag}</button>
+  <button on:click={() => currentTag(tag)}>{tag.name}</button>
 {/each}

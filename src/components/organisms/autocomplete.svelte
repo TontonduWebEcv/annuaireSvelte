@@ -7,7 +7,6 @@
   function listenInputLog(event) {
     let filterName = event.detail;
     filterList = Object.values(filterName);
-    console.log("autocomplete", filterList);
   }
 </script>
 
