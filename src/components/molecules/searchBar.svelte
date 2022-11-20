@@ -29,6 +29,7 @@
     padding: 5px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     border: solid 1px red;
   }
 </style>

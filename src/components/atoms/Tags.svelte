@@ -9,30 +9,47 @@
     dispatch("tagSelected", t);
     open = false;
   }
+
+  function filterTag(t) {
+    dispatch("filterTag", t);
+  }
 </script>
 
 <div class="container">
   <div>
-    <button on:click={() => (open = !open)}> + </button>
+    {#if tagsList.length != 0}
+      <button on:click={() => (open = !open)}> + Ajouter un tag</button>
+    {:else}
+      <p>Plus de tag à sélectionner</p>
+    {/if}
   </div>
-  {#if open}
-    {#each tagsList as tag}
-      <div>
-        <button on:click={() => tagSelected(tag)}>{tag.name}</button>
-      </div>
-    {/each}
-  {/if}
+
+  <div class="tags">
+    {#if open}
+      {#each tagsList as tag}
+        <div>
+          <button
+            on:click={() => {
+              tagSelected(tag), filterTag(tag);
+            }}>{tag.name}</button
+          >
+        </div>
+      {/each}
+    {/if}
+  </div>
 </div>
 
 <style>
   .container {
-    max-width: 100%;
-    height: 300px;
+    width: 300px;
+    height: auto;
     margin: 20px;
     padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  }
+  .tags {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 10px;
   }
   .container button {
     margin: 10px;

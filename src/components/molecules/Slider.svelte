@@ -1,105 +1,30 @@
 <script>
   import data from "../../data/data.json";
-  import Motion from "svelte-motion/src/motion/MotionSSR.svelte";
-  import AnimatePresence from "svelte-motion/src/components/AnimatePresence/AnimatePresence.svelte";
 
   const userList = data.USERS;
 
-  let isOn = 0;
-  const direction = 1;
-  const variants = {
-    enter: (direction) => {
-      return {
-        x: direction > 0 ? 1000 : -1000,
-        opacity: 0,
-      };
-    },
-    center: {
-      zIndex: 1,
-      x: 0,
-      opacity: 1,
-    },
-    exit: (direction) => {
-      return {
-        zIndex: 0,
-        x: direction < 0 ? 1000 : -1000,
-        opacity: 0,
-      };
-    },
-  };
-  const wrap = (a, l) => {
-    const u = a % l;
-    if (u < 0) {
-      return u + l;
+  let position = 0;
+  $: currentPosition = userList[position];
+
+  function next() {
+    if (position < userList.length - 1) {
+      position++;
     }
-    return u;
-  };
-  let c = 1;
+  }
+  function prev() {
+    if (position > 0) {
+      position--;
+    }
+  }
 </script>
 
-<AnimatePresence
-  list={[
-    {
-      key: isOn,
-      text: userList[wrap(isOn, userList.length)],
-    },
-  ]}
-  let:item
->
-  <Motion
-    let:motion
-    custom={c}
-    {variants}
-    initial="enter"
-    animate="center"
-    exit="exit"
-    transition={{
-      x: { type: "spring", stiffness: 300, damping: 30 },
-      opacity: { duration: 0.2 },
-    }}
-  >
-    <div class="container">
-      <div use:motion class="card">
-        <div class="containerPicture">
-          <img class="picture" src={item.text.avatar} alt="example" />
-        </div>
-        <div>
-          <h2>
-            userName: {item.text.username},
-          </h2>
-          <h3>
-            compétence:
-            {#each item.text.technologies as technologie}
-              <li>{technologie.name}</li>
-            {/each}
-          </h3>
-          <p>
-            email: {item.text.email},
-          </p>
-          <p>
-            birthdate: {item.text.birthdate},
-          </p>
-        </div>
-      </div>
-    </div>
-  </Motion>
-</AnimatePresence>
+<button on:click={next}>Next</button>
 <div>
-  <button
-    on:click={() => {
-      c = -1;
-      isOn--;
-    }}>{"prev"}</button
-  >
-  <button
-    on:click={() => {
-      c = 1;
-      isOn++;
-    }}>{"next"}</button
-  >
+  {currentPosition.username}
 </div>
+<button on:click={prev}>Precedent</button>
 
-<style>
+<!-- <style>
   .container {
     max-width: 100%;
     min-height: 25px;
@@ -120,4 +45,4 @@
     justify-content: center;
     border: 1px solid white;
   }
-</style>
+</style> -->

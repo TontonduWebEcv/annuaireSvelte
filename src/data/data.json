@@ -123,11 +123,7 @@
       "email": "Sienna_Doyle@hotmail.com",
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1036.jpg",
       "birthdate": "1943-07-16T06:41:03.080Z",
-      "technologies": [
-        { "name": "Flutter" },
-        { "name": "VueJS" },
-        { "name": "Svelte" }
-      ]
+      "technologies": [{ "name": "Flutter" }, { "name": "Svelte" }]
     },
     {
       "userId": 2,
@@ -147,11 +143,7 @@
       "email": "Garrett_Ernser@hotmail.com",
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/561.jpg",
       "birthdate": "2000-09-22T17:44:44.238Z",
-      "technologies": [
-        { "name": "PHP" },
-        { "name": "JavaScript" },
-        { "name": "TypeScript" }
-      ]
+      "technologies": [{ "name": "PHP" }]
     },
     {
       "userId": 4,
@@ -159,11 +151,7 @@
       "email": "Stephon51@yahoo.com",
       "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/325.jpg",
       "birthdate": "2001-03-07T03:45:45.409Z",
-      "technologies": [
-        { "name": "Vite" },
-        { "name": "Flutter" },
-        { "name": "VueJS" }
-      ]
+      "technologies": [{ "name": "Flutter" }]
     },
     {
       "userId": 5,

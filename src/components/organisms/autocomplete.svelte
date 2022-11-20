@@ -1,5 +1,5 @@
 <script>
-  import SearchBar from "../molecules/searchBar.svelte";
+  import SearchBar from "../molecules/SearchBar.svelte";
   import ResultSearchBar from "../molecules/ResultSearchBar.svelte";
 
   let filterList = [];

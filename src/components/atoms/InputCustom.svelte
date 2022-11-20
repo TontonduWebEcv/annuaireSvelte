@@ -1,11 +1,11 @@
 <script>
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
-  $: searchName = "";
+  let searchName;
 
-  function listenInput(event) {
+  function listenInput() {
     dispatch("inputChange", searchName);
   }
 </script>
 
-<input on:input={listenInput} bind:value={searchName} />
+<input bind:value={searchName} on:input={listenInput} />
